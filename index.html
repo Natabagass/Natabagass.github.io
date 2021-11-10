@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LearnCode<></title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,10 +34,8 @@
             <div class="kolom">
                 <p class="deskripsi">Belajar Programming #dirumahaja</p>
                 <h2>Tetap Mencoba Sampai Kamu Bisa.</h2>
-                <div data-aos="fade-left">
                 <p class = "content">Apakah Anda juga termasuk orang yang tertarik untuk belajar coding? Jika iya, Anda mengunjungi website yang tepat! LearnCode merupakan media pembelajaran untuk programming yang akan menemani kalian dalam berproses menjadi seorang programmer handal.</p>
                 <button onclick="readMore(this)">Tampilkan Lebih Banyak</button>
-                </div>
             </div>
         </section>
 
@@ -45,11 +44,12 @@
             <div class="kolom">
                 <p class="deskripsi"></p>
                 <h2>Kelas Online</h2>
-                <p class="contents"> Sistem pembelajaran kami yaitu berupa kelas online dengan media video conference
-                dan diajarkan langsung oleh tutor yang kompeten pada bidangnya.</p>
-                <p class="content">Dengan kurikulum yang sudah disusun sedemikian rupa, kami menyediakan paket pembelajaran untuk berbagai bahasa pemrograman seperti Java, Python, HTML, CSS, Javascript dan lain-lain. Jadi tidak perlu khawatir dengan kelas yang kami tawarkan. Untuk info lebih lanjut silahkan daftar kelas yang ada pada samping contact.</p>
-                <button onclick="readMore(this)">Tampilkan Lebih Banyak</button>
-                
+                <div data-aos="fade-right">
+                    <p class="contents"> Sistem pembelajaran kami yaitu berupa kelas online dengan media video conference
+                    dan diajarkan langsung oleh tutor yang kompeten pada bidangnya.</p>
+                    <p class="content">Dengan kurikulum yang sudah disusun sedemikian rupa, kami menyediakan paket pembelajaran untuk berbagai bahasa pemrograman seperti Java, Python, HTML, CSS, Javascript dan lain-lain. Jadi tidak perlu khawatir dengan kelas yang kami tawarkan. Untuk info lebih lanjut silahkan daftar kelas yang ada pada samping contact.</p>
+                    <button onclick="readMore(this)">Tampilkan Lebih Banyak</button>
+                </div>
             </div>
             <img src="https://image.freepik.com/free-vector/teaching-students-online-internet-learning-computer-programming-online-it-courses-best-online-it-training-online-certification-courses-concept_335657-194.jpg" alt="">
         </section>
@@ -142,6 +142,10 @@
             &copy;2021. <b>Learncode<></b> All Rights Reserved.
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
